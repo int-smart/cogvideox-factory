@@ -4,7 +4,7 @@ export WANDB_MODE="offline"
 export NCCL_P2P_DISABLE=1
 export TORCH_NCCL_ENABLE_MONITORING=0
 
-GPU_IDS="0"
+GPU_IDS="all"
 
 # Training Configurations
 # Experiment with as many hyperparameters as you want!
