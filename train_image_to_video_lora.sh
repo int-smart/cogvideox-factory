@@ -1,8 +1,8 @@
-export TORCH_LOGS="+dynamo,recompiles,graph_breaks"
-export TORCHDYNAMO_VERBOSE=1
-export WANDB_MODE="offline"
-export NCCL_P2P_DISABLE=1
-export TORCH_NCCL_ENABLE_MONITORING=0
+# export TORCH_LOGS="+dynamo,recompiles,graph_breaks"
+# export TORCHDYNAMO_VERBOSE=1
+# export WANDB_MODE="offline"
+# export NCCL_P2P_DISABLE=1
+# export TORCH_NCCL_ENABLE_MONITORING=0
 
 # Get GPU IDs from command line argument, default to "2,3" if not provided
 GPU_IDS=${1:-"2,3"}
